@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss:./css/style.css",
+    "prod": "postcss css/styles.css --use autoprefixer -o css/all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur01300/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artur01300/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Artur01300/Portfolio#readme",
+  "dependencies": {
+    "sass": "^1.32.12"
+  }
+}
