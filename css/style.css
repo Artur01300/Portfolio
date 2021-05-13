@@ -3,13 +3,13 @@
     display: none;
   }
 }
-.nav-menu-item a {
+.nav-link {
   transition: all 0.6s ease-out;
 }
 
-.nav-menu-item a:hover, .nav-menu-item:focus {
+.nav-item a:hover, .nav-item:focus {
   color: #bed69a;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
