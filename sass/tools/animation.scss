@@ -1,0 +1,7 @@
+.nav-menu-item a{
+    transition: all 0.6s ease-out;
+}
+.nav-menu-item a:hover, .nav-menu-item:focus{
+    color: rgb(190, 214, 154);
+    font-size: 2em;
+}
