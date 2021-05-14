@@ -1,6 +1,44 @@
-@media screen and (max-width: 1250px) {
-  .nav-levt {
-    display: none;
+@media screen and (max-width: 767px) {
+  .home {
+    padding-left: 0px !important;
+  }
+
+  .home-title {
+    font-size: 1.6em !important;
+  }
+
+  .home-text, .home-text-dev {
+    font-size: 1em !important;
+  }
+
+  .profile-photo {
+    display: none !important;
+  }
+
+  .presentation {
+    background-color: transparent !important;
+    border-left: none !important;
+  }
+
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  .marge {
+    padding-right: 12px !important;
+  }
+
+  .home {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .aboutMy {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .aboutMy p {
+    padding: 0px 40px;
   }
 }
 .nav-link {
@@ -10,6 +48,73 @@
 .nav-item a:hover, .nav-item:focus {
   color: #bed69a;
   font-size: 1.5em;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  min-height: 60vh;
+  background-image: url("/img/main.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 2px dashed #f1f1f1;
+}
+
+header .row {
+  min-height: 0vh;
+}
+
+.home {
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+.home-title {
+  font-size: 3em;
+}
+
+.home-title, .home-text {
+  color: white;
+}
+
+.home-text-dev {
+  color: #aedd4f;
+}
+
+.home-text, .home-text-dev {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.marge {
+  padding-right: 0px;
+}
+
+.presentation {
+  min-height: 70vh;
+  background-color: #1f1f1c;
+  border-left: 2px dashed #f1f1f1;
+  color: white;
+}
+
+.profile-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0px;
+}
+
+.profile-photo img {
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  border: 4px dotted #858282;
+}
+
+.aboutMy {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

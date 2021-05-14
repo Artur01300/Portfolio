@@ -1,19 +1,40 @@
-@media screen and(max-width: 1250px){
-    // .home{
-    // //     // background:url('/img/mainSmall.jpg') !important;
-    // //     background-repeat: no-repeat !important;
-    
-    // //     background-size: cover !important;
-    // //     background-repeat: no-repeat !important;
-    // //     // padding-left: 340px;
-    // //     // margin-left: auto;
-    // //     height: 100vh !important;
-    // //     min-height: 900px !important;
-    // //     max-width: 100%;
-    // //     position: relative;
-    // }
-
-    .nav-levt{
-        display: none;
+@media screen and(max-width: 767px){
+    .home{
+        padding-left: 0px !important;
+     }
+    .home-title{
+        font-size: 1.6em !important;
     }
+    .home-text, .home-text-dev{
+        font-size: 1em !important;
+    }
+    .profile-photo{
+        display: none !important;
+    }
+
+    .presentation{
+        background-color:transparent !important;
+        border-left: none !important;
+    }
+    *, ::after, ::before {
+        box-sizing:border-box;
+    }
+    .marge{
+       padding-right: 12px !important;
+    }
+    .home{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .aboutMy{
+        background-color: rgba(0,0,0,.2);
+    }
+    .aboutMy p{
+        padding: 0px 40px;
+    }
+
+}
+
+@media (min-width: 300px) {
+
 }
