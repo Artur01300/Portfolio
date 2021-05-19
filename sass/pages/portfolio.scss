@@ -1,0 +1,39 @@
+.portfolio-title{
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(46, 138, 138, 1);
+}
+.col-sm{
+    padding: 40px 0px;
+}
+.card{
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.card-text{
+    padding-bottom: 12px;
+}
+
+// Pour l'animation de "Mon portfolio
+.line-1{
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+// Pour l'animation bouton "voir le ghithub"
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    left: 25%;
+   
+}
+
+.center-btn span {
+    color: rgb(14, 1, 1);
+    font-size: 18px;
+    font-weight: 100;
+}

@@ -5,3 +5,79 @@
     color: rgb(190, 214, 154);
     font-size: 1.5em;
 }
+
+// index.html/ Bienvenue sur mon portfolio
+@-webkit-keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+                filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+
+//animation "Mon portfolio"
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 5s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(10, 1, 1, 0.75);}
+  to{border-right-color: transparent;}
+}
+
+
+//Pour l'animation bouton "voir le ghithub
+
+.center-btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.center-btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(39, 6, 6);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.center-btn:hover {
+  transition: 1s ease-in-out;
+  background: #d0dfec;
+}
+
+.center-btn:hover svg {
+  stroke-dashoffset: -480;
+}

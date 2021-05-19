@@ -1,32 +1,35 @@
 @media screen and(max-width: 767px){
-    .home{
-        padding-left: 0px !important;
-     }
+    section.home{
+        padding-left: 0px;
+        margin-top: 140px;
+        text-align: center;
+    }
     .home-title{
-        font-size: 1.6em !important;
+        font-size: 1.6em;
     }
     .home-text, .home-text-dev{
-        font-size: 1em !important;
+        font-size: 1em;
+        padding-bottom: 100px;
     }
-    .profile-photo{
-        display: none !important;
-    }
-
+    
     .presentation{
+        margin-top: -70px;
         background-color:transparent !important;
         border-left: none !important;
+        align-content: center;
     }
+    .presentation img {
+        display: none;
+    }
+
     *, ::after, ::before {
         box-sizing:border-box;
     }
     .marge{
-       padding-right: 12px !important;
-    }
-    .home{
-        padding-top: 100px;
-        text-align: center;
+       padding-left: 0px;
     }
     .aboutMy{
+        padding-bottom: 40px;
         background-color: rgba(0,0,0,.2);
     }
     .aboutMy p{
@@ -35,6 +38,29 @@
 
 }
 
-@media (min-width: 300px) {
+//************************** Portfolio ******************************
+// @media screen and(max-width: 1200px){
+//     .row-flexBox{
+//         padding-left: 70px;
+//     }
+// }
 
-}
+// @media screen and(max-width: 990px) {
+//     .row-flexBox{
+//         padding-left: 170px;
+
+//     }
+
+// }
+
+// @media screen and(max-width: 768px){
+//     .row-flexBox{
+//         padding-left: 75px;
+//     }
+// }
+
+// @media screen and(max-width: 411px){
+//     .row-flexBox{
+//        padding-left: 3px;
+//     }
+// }

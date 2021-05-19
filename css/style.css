@@ -1,23 +1,28 @@
 @media screen and (max-width: 767px) {
-  .home {
-    padding-left: 0px !important;
+  section.home {
+    padding-left: 0px;
+    margin-top: 140px;
+    text-align: center;
   }
 
   .home-title {
-    font-size: 1.6em !important;
+    font-size: 1.6em;
   }
 
   .home-text, .home-text-dev {
-    font-size: 1em !important;
-  }
-
-  .profile-photo {
-    display: none !important;
+    font-size: 1em;
+    padding-bottom: 100px;
   }
 
   .presentation {
+    margin-top: -70px;
     background-color: transparent !important;
     border-left: none !important;
+    align-content: center;
+  }
+
+  .presentation img {
+    display: none;
   }
 
   *, ::after, ::before {
@@ -25,15 +30,11 @@
   }
 
   .marge {
-    padding-right: 12px !important;
-  }
-
-  .home {
-    padding-top: 100px;
-    text-align: center;
+    padding-left: 0px;
   }
 
   .aboutMy {
+    padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.2);
   }
 
@@ -50,16 +51,93 @@
   font-size: 1.5em;
 }
 
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 5s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(10, 1, 1, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.center-btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.center-btn svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #270606;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.center-btn:hover {
+  transition: 1s ease-in-out;
+  background: #d0dfec;
+}
+
+.center-btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
 body {
   overflow-x: hidden;
 }
 
 header {
-  min-height: 60vh;
+  min-height: 100vh;
   background-image: url("/img/main.jpg");
   background-size: cover;
   background-attachment: fixed;
   border-bottom: 2px dashed #f1f1f1;
+  margin-bottom: 70px;
 }
 
 header .row {
@@ -67,12 +145,19 @@ header .row {
 }
 
 .home {
-  margin-top: 100px;
+  text-align: center;
+  margin-top: 280px;
   padding-left: 50px;
+}
+
+.focus-in-contract {
+  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .home-title {
   font-size: 3em;
+  padding-bottom: 80px;
 }
 
 .home-title, .home-text {
@@ -94,7 +179,6 @@ header .row {
 
 .presentation {
   min-height: 70vh;
-  background-color: #1f1f1c;
   border-left: 2px dashed #f1f1f1;
   color: white;
 }
@@ -103,7 +187,7 @@ header .row {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 0px;
+  padding: 150px 0px 50px 0px;
 }
 
 .profile-photo img {
@@ -115,6 +199,45 @@ header .row {
 
 .aboutMy {
   padding: 20px;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-weight: bolder;
+  color: #2e8a8a;
+}
+
+.col-sm {
+  padding: 40px 0px;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+  padding-bottom: 12px;
+}
+
+.line-1 {
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 25%;
+}
+
+.center-btn span {
+  color: #0e0101;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=style.css.map */
