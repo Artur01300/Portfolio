@@ -18,7 +18,7 @@
     <!-- ************** Nave bar ***************** -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#index.html">
+            <a class="navbar-brand" href="#index">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.075 36" width="105.075" height="36">
                     <g fill="#a8be9b" color="#a8be9b" transform="translate(0 6) scale(0.4363637)">
                         <svg width="54.0" height="55.0" x="0.0" y="0.0" viewBox="0 0 54 55">
@@ -32,18 +32,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#iportfolio">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#icompetences">Compétences</a>
+                        <a class="nav-link" href="#competences">Compétences</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    
 
 <!-- ************** Header ***************** -->
-    <header class="container-fluid">
+    <header class="container-fluid" id="index">
         <div class="row">
             <div class="col-12 col-md-9">
                 <section class="home">
@@ -82,147 +83,216 @@
 
     <!-- ************** Portfolio ***************** -->
     <!-- line-1 et anim-typewriter sont encamble(ils sont pour l'animation) -->
-    <h2 class="portfolio-title line-1 anim-typewriter">Mon Portfolio</h2>
-    <section class="container">
-        <!-- <div class="row row-flexBox"> -->
-        <div class="row">
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P7.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Groupomania</h5>
-                        <p class="card-text">
-                            C'est un réseau social d’entreprise pour les employés. Le but de cet outil est de faciliter les interactions entre collègues.
-                        </p>
-                        <p class="card-text">
-                            <strong># Node.js, MySQL, Vue.JS, Axios</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P7', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+    <section id="portfolio">
+        <div class="container portfolio-bgcolor">
+            <h2 class="portfolio-title line-1 anim-typewriter">Mon Portfolio</h2>
+            <!-- <div class="row row-flexBox"> -->
+            <div class="row">
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P7.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Groupomania</h5>
+                            <p class="card-text">
+                                C'est un réseau social d’entreprise pour les employés. Le but de cet outil est de faciliter les interactions entre collègues
+                            </p>
+                            <p class="card-text">
+                                <strong># Node.js, MySQL, Vue.JS, Axios</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P7', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P6.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Piquante</h5>
-                        <p class="card-text">
-                            Cette application permete aux utilisateurs ajouter leur sauces et liker/disliker les sauces ajoutés.
-                        </p>
-                        <p class="card-text">
-                            <strong># Node.js, Express, MongoDB, API</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P6', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P6.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Piquante</h5>
+                            <p class="card-text">
+                                Cette application permete aux utilisateurs ajouter leur sauces et liker/disliker les sauces ajoutés
+                            </p>
+                            <p class="card-text">
+                                <strong># Node.js, Express, MongoDB, API</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P6', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P5.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">E-commerce</h5>
-                        <p class="card-text">
-                            S'affiche de manière dynamique l'élément sélectionné, personnalise le produit, l'ajouter à son panier, envoyer au back-end
-                        </p>
-                        <p class="card-text">
-                            <strong># JavaScript, API, Bootstrap</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P5', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P5.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce</h5>
+                            <p class="card-text">
+                                S'affiche de manière dynamique l'élément sélectionné, personnalise le produit, l'ajouter à son panier, envoyer au back-end
+                            </p>
+                            <p class="card-text">
+                                <strong># JavaScript, API, Bootstrap</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P5', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P4.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Optimiser un site web existant</h5>
-                        <p class="card-text">
-                            L’analyse du SEO en améliorant ses performances techniques, et la vitesse de site web
-                        </p>
-                        <p class="card-text">
-                            <strong># SEO</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P4', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P4.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Optimiser un site web existant</h5>
+                            <p class="card-text">
+                                L’analyse du SEO en améliorant ses performances techniques, et la vitesse de site web
+                            </p>
+                            <p class="card-text">
+                                <strong># SEO</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P4', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P3.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Page web avec des animations CSS</h5>
-                        <p class="card-text">
-                            Un site qui répertorie les 4 menus des plus grands restaurants, es clients pourront
-                            composer le menu de leur repas
-                        </p>
-                        <p class="card-text">
-                            <strong># SASS, animations CSS</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P3', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P3.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Page web avec des animations CSS</h5>
+                            <p class="card-text">
+                                Un site qui répertorie les 4 menus des plus grands restaurants, es clients pourront
+                                composer le menu de leur repas
+                            </p>
+                            <p class="card-text">
+                                <strong># SASS, animations CSS</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P3', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm d-flex align-items-center justify-content-center">
-                <div class="card" style="width: 23rem; height: 30rem;">
-                    <img class="card-img-top img-fluid" src="/img/P2.JPG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CV en site Web</h5>
-                        <p class="card-text">
-                            Création site web, sur lequel je publie mon CV, intégré du contenu conformément à une maquette
-                        </p>
-                        <p class="card-text">
-                            <strong># HTML, CSS</strong>
-                        </p>
-                        <div class="center">
-                            <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P2', '_blank');">
-                              <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                              </svg>
-                              <span>Voir le github</span>
-                            </button>
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <div class="card" style="width: 23rem; height: 30rem;">
+                        <img class="card-img-top img-fluid" src="/img/P2.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CV en site Web</h5>
+                            <p class="card-text">
+                                Création site web, sur lequel je publie mon CV, intégré du contenu conformément à une maquette
+                            </p>
+                            <p class="card-text">
+                                <strong># HTML, CSS</strong>
+                            </p>
+                            <div class="center">
+                                <button class="center-btn" type="button" onclick=" window.open('https:github.com/Artur01300/OC_P2', '_blank');">
+                                  <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                                  </svg>
+                                  <span>Voir le github</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="containerClip"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--****************************** Competences **********************************-->
+
+
+    <section id="competences">
+        <div class="container competences-bgcolor">
+            <h2 class="containerClip-title competencesTextColor">Mes compétences</h2>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">HTML</h3>
+                    <p class="competencesTextColor">
+                        Découper et intégrer une maquette. Installer les outils de développement front-end.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">CSS</h3>
+                    <p class="competencesTextColor">
+                        SASS, Flexbox, Grid, animation, Responsive.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">Bootstrap</h3>
+                    <p class="competencesTextColor">
+                        Créer des mises en page responsives, créer des fonctionnalités et des thèmes personnalisés à l'aide de Bootstrap
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">JavaScript</h3>
+                    <p class="competencesTextColor">
+                        Gérer la logique d'un programme en JavaScript, récupérer et modifier des éléments du DOM, Utiliser des méthodes asynchrones.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">Vue.js</h3>
+                    <p class="competencesTextColor">
+                        Construire une application Vue.js, créer des composants réutilisables dans Vue.js, gérer les données d'une application.
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">Node.js</h3>
+                    <p class="competencesTextColor">
+                        Créer un serveur Web simple avec Express, créer une API REST avec Node, Express, mettre en place un système d'authentification sur une application Express,
+                        gérer des fichiers utilisateur sur une application Express.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">MongoDB</h3>
+                    <p class="competencesTextColor">
+                        intégrer la couche de base de données de notre serveur, créer un cluster puis configurer-le avec l'option AWS, 
+                        connecter l'API à cluster MongoDB
+                    </p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <h3 class="competencesTextColor">MySQL</h3>
+                    <p class="competencesTextColor">
+                        Configurer MySQL, créer une base de données, gérer les utilisateurs, créer et modifier des tables, insérer, modifier, supprimer et sélectionner des données dans la base,
+                        réaliser une requête portant sur plusieurs tables avec les jointures.
+                    </p>
                 </div>
             </div>
         </div>
