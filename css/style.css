@@ -282,7 +282,7 @@ header .row {
 }
 
 .competences-bgcolor {
-  background-color: #485563;
+  background-image: linear-gradient(to right, #868585, #59595c);
 }
 
 .containerClip-title {
@@ -292,6 +292,19 @@ header .row {
 
 .competencesTextColor {
   color: white;
+}
+
+#email {
+  background-image: linear-gradient(to right, #ccc5c5, #59595c);
+}
+
+.form {
+  padding: 50px;
+}
+
+.formContactTitel {
+  text-align: center;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
