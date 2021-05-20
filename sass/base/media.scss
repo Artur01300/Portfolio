@@ -38,24 +38,11 @@
 
 }
 
-// @media screen and(max-width: 990px){
-//     .containerClip{
-//         height: 120vh !important;
-
-//     }
+// icons de github, linkdin, CV
+@media screen and(max-width: 990px){
+    .info-items{
+        flex-direction: row !important;
+        align-items: center;
+    }
     
-// }
-
-// @media screen and(max-width: 391px){
-//     .containerClip{
-//         height: 280vh !important;
-//     }
-// }
-
-// @media screen and(max-width: 390px){
-//     .containerClip{
-//         background-color: aqua !important;
-//         height: 140vh !important;
-
-//     }
-// }
+}

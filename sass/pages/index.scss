@@ -40,6 +40,27 @@ header .row{
     font-size: 1.6em;
     font-weight: 600;
 }
+// icons de github, linkdin, CV
+.info{
+    padding-top: 50px;
+    left: 0;
+}
+
+.info-items{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+}
+
+.infoTextColor {
+    padding: 20px;
+}
+
+.infoTextColor a{
+    color: white;
+}
+
 .marge{
     padding-right: 0px;
 }
