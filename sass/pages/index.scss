@@ -33,9 +33,17 @@ header .row{
 }
 
 .home-text-dev{
-    color: rgb(174, 221, 79);
+    color: rgb(206, 243, 131);
 }
 
+// Pour l'animation de "Développeur Web
+.line-1{
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
 
 .home-text, .home-text-dev{
     font-size: 1.6em;
@@ -92,4 +100,6 @@ header .row{
 
 .aboutMy{
     padding: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
 }

@@ -34,15 +34,15 @@
     }
 }
 
-//animation "Mon portfolio"
+//animation "index.html/Développeur web"
 
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 5s 1 normal both,
+  animation: typewriter 4s steps(44) 3s 1 normal both,
   blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 7em;}
+  to{width: 8.5em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(10, 1, 1, 0.75);}
