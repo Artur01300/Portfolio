@@ -44,8 +44,9 @@
 }
 @media screen and (max-width: 990px) {
   .info-items {
+    display: flex !important;
     flex-direction: row !important;
-    align-items: center;
+    justify-content: center;
   }
 }
 .nav-link {
@@ -399,6 +400,7 @@ header .row {
 
 .competences-bgcolor {
   background-image: linear-gradient(to right, #868585, #59595c);
+  padding-bottom: 50px;
 }
 
 .containerClip-title {

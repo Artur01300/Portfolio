@@ -40,9 +40,10 @@
 
 // icons de github, linkdin, CV
 @media screen and(max-width: 990px){
-    .info-items{
+    .info-items {
+        display: flex !important;
         flex-direction: row !important;
-        align-items: center;
+        justify-content: center;
     }
     
 }
