@@ -1,11 +1,28 @@
 #email{
     background-image: linear-gradient(to right,#ccc5c5,#59595c);
-}
-.form{
-    padding: 50px;
+    min-height: 15vh;
+    margin-bottom: 42px;
 }
 
 .formContactTitel{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+//section restons en contact (artur.karapetyan@outlook.fr)
+.btn-shine{
+    padding-bottom: 50px;
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 1.6em;
+    text-decoration: none;
+    white-space: nowrap;
 }
