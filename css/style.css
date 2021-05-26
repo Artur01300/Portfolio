@@ -54,7 +54,7 @@
 
 .nav-item a:hover, .nav-item:focus {
   color: #bed69a;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 @-webkit-keyframes focus-in-contract {
@@ -245,16 +245,16 @@
 
 @keyframes shine {
   0% {
-    background-position: 50;
+    background-position: 0px;
   }
   60% {
     background-position: 100px;
   }
   80% {
-    background-position: 200px;
+    background-position: 300px;
   }
   100% {
-    background-position: 400px;
+    background-position: 450px;
   }
 }
 body {
@@ -468,7 +468,7 @@ header .row {
 .formContactTitel {
   text-align: center;
   padding-top: 45px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .btn-shine {
@@ -482,7 +482,7 @@ header .row {
   animation-fill-mode: forwards;
   -webkit-text-size-adjust: none;
   font-weight: 600;
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-decoration: none;
   white-space: nowrap;
 }
