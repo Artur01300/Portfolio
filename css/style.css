@@ -396,6 +396,16 @@ header .row {
   left: 25%;
 }
 
+.center-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center a {
+  text-decoration: none;
+}
+
 .center-btn span {
   color: #0e0101;
   font-size: 18px;

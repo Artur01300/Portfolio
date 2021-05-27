@@ -28,6 +28,15 @@
    
 }
 
+.center-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center a{
+    text-decoration: none;
+}
+
 .center-btn span {
     color: rgb(14, 1, 1);
     font-size: 18px;
