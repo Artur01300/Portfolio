@@ -35,7 +35,7 @@
   .aboutMy {
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.2);
-    -webkit-background-color: rgba(0, 0, 0, 0.2);
+    -apple-background-color: rgba(0, 0, 0, 0.2);
   }
 
   .aboutMy p {
