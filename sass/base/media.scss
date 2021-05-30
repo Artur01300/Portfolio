@@ -30,6 +30,8 @@
     .aboutMy{
         padding-bottom: 40px;
         background-color: rgba(0,0,0,.2);
+        -webkit-background-color: rgba(0,0,0,.2);
+        // -apple-background-color: rgba(0,0,0,.2);
     }
     .aboutMy p{
         padding: 0px 40px;
@@ -38,7 +40,7 @@
 }
 
 // icons de github, linkdin, CV
-@media screen and(max-width: 990px){
+@media screen and(max-width: 1024px){
     .info-items {
         display: flex !important;
         flex-direction: row !important;
