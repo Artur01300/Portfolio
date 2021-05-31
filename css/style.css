@@ -6,6 +6,10 @@
   }
 }
 @media screen and (max-width: 767px) {
+  #index {
+    margin-bottom: 0px;
+  }
+
   section.home {
     padding-left: 0px;
     margin-top: 140px;
@@ -44,6 +48,10 @@
 
   .aboutMy p {
     padding: 0px 40px;
+  }
+
+  .portfolio-title {
+    padding-top: 30px;
   }
 }
 .nav-link {
@@ -272,6 +280,10 @@ header .row {
   min-height: 0vh;
 }
 
+#index {
+  margin-bottom: 0px;
+}
+
 .home {
   text-align: center;
   margin-top: 280px;
@@ -370,6 +382,7 @@ header .row {
 }
 
 .portfolio-title {
+  padding-top: 30px;
   text-align: center;
   font-weight: bolder;
   color: #2e8a8a;

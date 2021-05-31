@@ -8,6 +8,10 @@
 }
 
 @media screen and(max-width: 767px){
+
+    #index{
+        margin-bottom: 0px;
+    }
     section.home{
         padding-left: 0px;
         margin-top: 140px;
@@ -39,5 +43,9 @@
     }
     .aboutMy p{
         padding: 0px 40px;
+    }
+
+    .portfolio-title{
+        padding-top: 30px;
     }
 }
