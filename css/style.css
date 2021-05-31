@@ -1,3 +1,10 @@
+@media screen and (max-width: 1024px) {
+  .info-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 767px) {
   section.home {
     padding-left: 0px;
@@ -14,9 +21,8 @@
   }
 
   .presentation {
-    margin-top: -70px;
     background-color: transparent !important;
-    border-left: none !important;
+    margin-top: -70px;
     align-content: center;
   }
 
@@ -34,18 +40,10 @@
 
   .aboutMy {
     padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .aboutMy p {
     padding: 0px 40px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .info-items {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center;
   }
 }
 .nav-link {
@@ -312,7 +310,7 @@ header .row {
 }
 
 .info {
-  padding-top: 20px;
+  padding-top: 50px;
   left: 0;
 }
 
@@ -343,7 +341,7 @@ header .row {
 
 .presentation {
   min-height: 100vh;
-  border-left: 2px dashed #f1f1f1;
+  background-color: rgba(83, 82, 82, 0.1);
   color: white;
 }
 
@@ -429,7 +427,7 @@ header .row {
 }
 
 .containerClip-title {
-  padding: 50px 0px 80px 0px;
+  padding: 70px 0px 80px 0px;
   text-align: center;
 }
 

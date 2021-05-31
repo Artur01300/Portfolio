@@ -52,7 +52,7 @@ header .row{
 
 //icons de github, linkdin, CV, formulaire de contact
 .info{
-    padding-top: 20px;
+    padding-top: 50px;
     left: 0;
 }
 
@@ -82,7 +82,7 @@ header .row{
 }
 .presentation{
     min-height: 100vh;
-    border-left: 2px dashed #f1f1f1;
+    background-color: rgba(83, 82, 82, 0.1);
     color: white;
 }
 .profile-photo {
@@ -97,7 +97,6 @@ header .row{
     height: 140px;
     border: 4px dotted rgb(133, 130, 130);
 }
-
 .aboutMy{
     padding: 20px;
     font-size: 1.2em;
