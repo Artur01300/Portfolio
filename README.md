@@ -3,7 +3,7 @@
 Ce portfolio est adapté aux développeurs web
 
 
-## Langage utilisés
+## Langages utilisés
 *HTML 5
 *CSS 3
 
