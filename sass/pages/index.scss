@@ -3,12 +3,13 @@ body {
 }
 
 header{
-    min-height: 100vh;
     background-image: url('../img/main.jpg');
-    background-size: cover;
+    // background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     border-bottom: 2px dashed #f1f1f1;
-    margin-bottom: 70px;
+
 }
 
 header .row{
