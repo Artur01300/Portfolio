@@ -4,8 +4,18 @@
     flex-direction: row;
     justify-content: center;
   }
+
+  .icon-expand::before {
+    background: #C82647;
+    box-shadow: inset 0 0 0 60px #727275 !important;
+  }
 }
 @media screen and (max-width: 767px) {
+  .icon-expand::before {
+    background: #C82647;
+    box-shadow: inset 0 0 0 60px #98989c !important;
+  }
+
   #index {
     margin-bottom: 0px;
   }
@@ -365,8 +375,8 @@ header .row {
 
 .profile-photo img {
   border-radius: 100%;
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   border: 4px dotted #858282;
 }
 
