@@ -391,7 +391,8 @@ header .row {
 }
 
 .portfolio-title {
-  padding-top: 30px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   font-weight: bolder;
   color: #2e8a8a;
@@ -433,7 +434,7 @@ header .row {
 }
 
 #competences {
-  padding-bottom: 45px;
+  padding-top: 45px;
 }
 
 .containerClip {
@@ -444,13 +445,13 @@ header .row {
 }
 
 .competences-bgcolor {
-  background-image: linear-gradient(to right, #868585, #59595c);
-  padding-bottom: 50px;
+  background-color: #f6f6f6;
 }
 
 .containerClip-title {
-  padding: 28px 0px 45px 0px;
+  padding: 45px 0px 45px 0px;
   text-align: center;
+  color: #2e8a8a;
 }
 
 .competencesTextColor {
@@ -487,6 +488,10 @@ header .row {
 
 .mysqlTitleColor {
   color: #afb42b;
+}
+
+.ubuntuTitleColor {
+  color: #f36c23;
 }
 
 #email {

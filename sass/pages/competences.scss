@@ -1,6 +1,6 @@
 
 #competences{
-    padding-bottom: 45px;
+    padding-top: 45px;
 }
 .containerClip{
     width: 100%;
@@ -10,42 +10,46 @@
 }
 
 .competences-bgcolor{
-    background-image: linear-gradient(to right,#868585,#59595c);
-    padding-bottom: 50px;
+    background-color: #f6f6f6;
 }
 
 .containerClip-title{
-    padding: 28px 0px 45px 0px;
+    padding: 45px 0px 45px 0px;
     text-align: center;
+    color: #2e8a8a;
 }
 .competencesTextColor{
     color: white;
 }
 
 .htmlTitleColor{
-    color:  #78d3ca;
+    color: #78d3ca;
 }
 
 .cssTitleColor{
-    color:  #4dd0e1;
+    color: #4dd0e1;
 }
 
 .bootstrapTitleColor{
-    color:  #eb9532; 
+    color: #eb9532; 
 }
 .jsTitleColor{
-    color:  #8cc63f; 
+    color: #8cc63f; 
 }
 .vueTitleColor{
-    color:  #f36c23; 
+    color: #f36c23; 
 }
 
 .nodeTitleColor{
-    color:  #00b8d4; 
+    color: #00b8d4; 
 }
 .mongoTitleColor{
-    color:  #00c853; 
+    color: #00c853; 
 }
 .mysqlTitleColor{
-    color:  #afb42b; 
+    color: #afb42b; 
+}
+
+.ubuntuTitleColor{
+    color: #f36c23; 
 }
