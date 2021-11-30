@@ -1,23 +1,5 @@
-// icons de github, linkdin, CV
-@media screen and(max-width: 1024px){
-    .info-items {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .icon-expand::before {
-        background: #C82647;
-        box-shadow: inset 0 0 0 60px #727275 !important;
-    }
-}
-
 
 @media screen and(max-width: 767px){
-
-    .icon-expand::before {
-        background: #C82647;
-        box-shadow: inset 0 0 0 60px #98989c !important;
-    }
 
     #index{
         margin-bottom: 0px;
@@ -35,12 +17,14 @@
     }
     .presentation{
         background-color: transparent !important;
-        margin-top: -70px;
+        margin-top: -130px;
         align-content: center;
     }
+
     .presentation img {
         display: none;
     }
+
 
     *, ::after, ::before {
         box-sizing: border-box;

@@ -184,6 +184,34 @@
 .icon-collapse::after {
   box-shadow: inset 0 0 0 1px #8CC63F;
 }
+//icon Codepen
+.icon-rotate{
+  box-shadow: inset 0 0 0 1px #EC7063;
+  &::after, &::before{
+		border: 0px solid transparent;
+  }
+  &:hover::before{
+		transition:
+    border-top-width 0.3s ease,
+    border-top-color 0.3s ease;
+		border-width: 64px;
+		border-top-color: #EC7063;
+	}
+	&:hover::after{
+		transition:
+    border-left-width 0.3s ease,
+    border-left-color 0.3s ease;
+		border-width: 64px;
+		border-left-color: #EC7063;
+	}
+	&:hover{
+		transition: background 0.001s ease 0.3s;
+		background: #EC7063;
+	}
+  i{
+		z-index: 1;
+	}
+}
 
 //section restons en contact (artur.karapetyan@outlook.fr)
 @keyframes shine{
