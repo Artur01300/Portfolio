@@ -21,7 +21,7 @@
     }
     .presentation{
         background-color: transparent !important;
-        margin-top: -130px;
+        margin-top: -7em;
         align-content: center;
     }
 
@@ -35,12 +35,6 @@
     }
     .marge{
        padding-left: 0px;
-    }
-    .aboutMy{
-        padding-bottom: 40px;
-    }
-    .aboutMy p{
-        padding: 0px 40px;
     }
 
     .portfolio-title{
@@ -69,6 +63,20 @@
 
 @media screen and(max-width: 450px){
     .presentation {
-        margin-top: -160px;
+        margin-top: -2em;
+    }
+
+    #competences{
+        padding-top: 0px !important;
+    }
+    .aboutMyMobile{
+        padding-top: 3em !important;
+    }
+}
+
+@media screen and(max-height: 1286px){
+  
+    .offOrdiPortable{
+        display: none;
     }
 }

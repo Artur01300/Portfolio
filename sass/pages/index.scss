@@ -22,7 +22,7 @@ header .row{
 
 .home{
     text-align: center;
-    margin-top: 280px;
+    margin-top: 15rem;
     padding-left: 50px;
 }
 .focus-in-contract {
@@ -30,8 +30,8 @@ header .row{
     animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .home-title{
-    font-size: 3em;
-    padding-bottom: 80px;
+    font-size: max(3em, 20px);
+    padding-bottom: 2rem;
 }
 
 .home-title, .home-text{
@@ -109,16 +109,22 @@ header .row{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 150px 0px 50px 0px;
+    padding: 8em 0em 2em 0em;
+
 }
 .profile-photo img {
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 15em;
+    height: 15em;
     border: 4px dotted rgb(133, 130, 130);
 }
 .aboutMy{
     padding: 20px;
-    font-size: 1.2em;
+    font-size: max(1.2em, 10px);
     font-weight: 400;
+}
+
+.articleForMobile h1{
+    text-align: center;
+    
 }
